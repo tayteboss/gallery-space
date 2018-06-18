@@ -1,0 +1,68 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+#logo {
+    font-weight: 600;
+    font-size: 1.38em;
+    padding: 10% 10% 10%;
+    text-align: right;
+}
+
+nav {
+    text-align: right;
+    padding-right: 10%;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.when-nav, .when-article {
+    padding-right: 5%;
+}
+
+.what-nav, .what-article {
+    padding-right: 30%;
+}
+
+.where-nav, .where-article {
+    padding-right: 30%;
+}
+
+.how-nav, .how-article {
+    padding-right: 20%;
+}
+
+#hr {
+    content: ' ';
+    display: block;
+    position: relative;
+    width: 95%;
+    background: #000;
+    height: 1px;
+    margin-top: 0.6em;
+    margin-right: 0;
+    text-align: right;
+}
+
+#articles {
+    text-align: right;
+    padding-right: 10%;
+}
+
+#where-sec, #how-sec, .where-article {
+    display: inline;
+}
+
+img {
+    width: 3.42em;
+    display: inline;
+}
