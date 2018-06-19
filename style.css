@@ -1,6 +1,9 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
 }
 
 #logo {
@@ -11,55 +14,49 @@ body {
 }
 
 nav {
-    text-align: right;
     padding-right: 10%;
 }
 
-nav ul {
+nav ul, {
     padding: 0;
     margin: 0;
 }
 
 ul li {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
 }
 
 .when-nav, .when-article {
-    padding-right: 5%;
+    width: 7%;
 }
 
 .what-nav, .what-article {
-    padding-right: 30%;
+    width: 30%;
 }
 
 .where-nav, .where-article {
-    padding-right: 30%;
+    width: 30%;
 }
 
 .how-nav, .how-article {
-    padding-right: 20%;
+    width: 20%;
 }
 
 #hr {
-    content: ' ';
-    display: block;
-    position: relative;
     width: 95%;
     background: #000;
     height: 1px;
     margin-top: 0.6em;
     margin-right: 0;
-    text-align: right;
 }
 
 #articles {
-    text-align: right;
     padding-right: 10%;
 }
 
-#where-sec, #how-sec, .where-article {
-    display: inline;
+#articles ul {
+    padding-left: 0;
 }
 
 img {
