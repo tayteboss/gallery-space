@@ -1,8 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
     width: 100vw;
 }
 
@@ -14,45 +13,35 @@ body {
 }
 
 nav {
-    padding-right: 10%;
+    padding-left: 1%;
 }
 
-nav ul, {
+nav ul {
     padding: 0;
     margin: 0;
+    text-align: left;
 }
 
 ul li {
     list-style-type: none;
     display: inline-block;
+    vertical-align: top;
 }
 
-.when-nav, .when-article {
-    width: 7%;
-}
 
-.what-nav, .what-article {
-    width: 30%;
-}
-
-.where-nav, .where-article {
-    width: 30%;
-}
-
-.how-nav, .how-article {
-    width: 20%;
-}
 
 #hr {
-    width: 95%;
     background: #000;
     height: 1px;
-    margin-top: 0.6em;
-    margin-right: 0;
+    margin: 0.6em 0 1.42em 0;
+}
+
+article {
+    margin-bottom: 1.78em;
 }
 
 #articles {
-    padding-right: 10%;
+    padding-left: 1%;
 }
 
 #articles ul {
@@ -63,3 +52,53 @@ img {
     width: 3.42em;
     display: inline;
 }
+
+.container {
+    text-align: right;
+    padding-left: 3%;
+}
+
+section {
+    text-align: left;
+}
+
+.width-10 {
+    width: 10%;
+}
+.width-29 {
+    width: 29%;
+}
+.width-30 {
+    width: 30%;
+}
+.width-40 {
+    width: 40%;
+}
+.width-50 {
+    width: 50%;
+}
+
+.color-1 {
+    color: #808080;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    nav {
+        opacity: 0;
+    }
+
+    .how-article {
+        text-align: right;
+        width: 10%;
+    }
+
+    .width-29 {
+        width: 35%;
+    }
+}    
