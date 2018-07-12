@@ -1,0 +1,118 @@
+@media screen and (min-width: 600px) {
+    .width-mobile-10 {
+        width: 10%;
+    }
+    .width-mobile-29 {
+        width: 29%;
+    }
+    .width-mobile-30 {
+        width: 30%;
+    }
+    .width-mobile-40 {
+        width: 40%;
+    }
+    .width-mobile-50 {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .width-lap-10 {
+        width: 10%;
+    }
+    .width-lap-29 {
+        width: 29%;
+    }
+    .width-lap-30 {
+        width: 30%;
+    }
+    .width-lap-40 {
+        width: 40%;
+    }
+    .width-lap-50 {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .grid-mobile-10 {
+        width: 10%;
+    }
+    .grid-mobile-29 {
+        width: 29%;
+    }
+    .grid-mobile-30 {
+        width: 30%;
+    }
+    .grid-mobile-40 {
+        width: 40%;
+    }
+    .grid-mobile-50 {
+        width: 50%;
+    }
+}
+
+/* lap grid */
+@media screen and (min-width: 720px) {
+    .grid-lap-10 {
+        width: 10%;
+    }
+    .grid-lap-29 {
+        width: 29%;
+    }
+    .grid-lap-30 {
+        width: 30%;
+    }
+    .grid-lap-40 {
+        width: 40%;
+    }
+    .grid-lap-50 {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    nav {
+        opacity: 0;
+    }
+
+    #articles {
+        line-height: 1.1em;
+    }
+
+    .how-article {
+        text-align: right;
+        width: 90%;
+        display: block;
+        position: relative;
+        bottom: 4.2em;
+    }
+
+    .where-article {
+        display: block;
+        margin-left: 16%;
+        position: relative;
+        bottom: -0.57em;
+    }
+
+    .width-29 {
+        width: 35%;
+    }
+
+    .when-article {
+        font-size: 0.85em;
+        width: 15%;
+    }
+
+    .what-article, .where-article {
+        font-size: 0.92em;
+    }
+}    
