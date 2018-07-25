@@ -4,6 +4,7 @@ body {
     font-size: 14px;
     width: 100vw;
     padding-left: 5%;
+    background-color: #fff;
 }
 
 * {
@@ -28,7 +29,7 @@ header {
 }
 
 a {
-    color: #000;
+    color: #fff;
 }
 
 #nav-text a {
@@ -39,7 +40,7 @@ a {
 }
 
 #nav-text a:hover {
-    color: #000;
+    color: #fff;
 }
 
 .nav-items {
@@ -71,7 +72,7 @@ ul li {
 }
 
 .hr {
-    background: #000;
+    background: #fff;
     height: 1px;
     display: block;
     margin: 0.6em 0 1.42em auto;
@@ -113,6 +114,10 @@ section {
     color: #B3B3B3
 }
 
+.color-3 {
+    color: #ffffff;
+}
+
 
 
 
@@ -151,4 +156,74 @@ section {
 }
 .grid-80 {
     width: 80%;
+}
+
+
+
+
+.delay-400 {
+    transition: opacity 1s 400ms;
+}
+.delay-width-600 {
+    transition: width 1s 600ms;
+}
+.delay-500 {
+    transition: opacity 1s 500ms;
+}
+.delay-600 {
+    transition: opacity 1s 600ms;
+}
+.delay-700 {
+    transition: opacity 1s 700ms;
+}
+.delay-800 {
+    transition: opacity 1s 800ms;
+}
+.delay-900 {
+    transition: opacity 1s 900ms;
+}
+.delay-1000 {
+    transition: opacity 1s 1000ms;
+}
+.delay-1100 {
+    transition: opacity 1s 1100ms;
+}
+.delay-1200 {
+    transition: opacity 1s 1200ms;
+}
+.delay-1300 {
+    transition: opacity 1s 1300ms;
+}
+.delay-1400 {
+    transition: opacity 1s 1400ms;
+}
+
+
+
+
+
+.animate {
+    opacity: 0;
+}
+
+.make-visible {
+    opacity: 1;
+}
+
+.make-width {
+    width: 100%;
+}
+
+.how-arrow-a {
+    position: relative;
+    left: 3px;
+    transition: .5s;
+}
+
+.article-hover {
+    opacity: 0.3;
+}
+
+.article-fade {
+    transition: opacity 500ms;
 }

@@ -1,0 +1,73 @@
+.color-transition {
+    transition: background-color 1s 100ms;
+}
+.delay-400 {
+    transition: opacity 1s 400ms;
+}
+.delay-width-600 {
+    transition: width 1s 600ms;
+}
+.delay-500 {
+    transition: opacity 1s 500ms;
+}
+.delay-600 {
+    transition: opacity 1s 600ms;
+}
+.delay-700 {
+    transition: opacity 1s 700ms;
+}
+.delay-800 {
+    transition: opacity 1s 800ms;
+}
+.delay-900 {
+    transition: opacity 1s 900ms;
+}
+.delay-1000 {
+    transition: opacity 1s 1000ms;
+}
+.delay-1100 {
+    transition: opacity 1s 1100ms;
+}
+.delay-1200 {
+    transition: opacity 1s 1200ms;
+}
+.delay-1300 {
+    transition: opacity 1s 1300ms;
+}
+.delay-1400 {
+    transition: opacity 1s 1400ms;
+}
+
+
+
+
+
+.animate {
+    opacity: 0;
+}
+
+.make-black {
+    background-color: #000;
+}
+
+.make-visible {
+    opacity: 1;
+}
+
+.make-width {
+    width: 100%;
+}
+
+.how-arrow-a {
+    position: relative;
+    left: 3px;
+    transition: .5s;
+}
+
+.article-hover {
+    opacity: 0.3;
+}
+
+.article-fade {
+    transition: opacity 500ms;
+}
