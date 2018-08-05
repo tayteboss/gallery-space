@@ -1,6 +1,9 @@
 .color-transition {
     transition: background-color 1s 100ms;
 }
+.delay-200 {
+    transition: opacity 1s 200ms;
+}
 .delay-400 {
     transition: opacity 1s 400ms;
 }

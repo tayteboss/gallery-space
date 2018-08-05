@@ -24,6 +24,10 @@ header {
     margin: auto 0;
 }
 
+.insta-icon {
+    transform: translateY(3px);
+}
+
 #nav img {
     height: 0.857em;
 }
